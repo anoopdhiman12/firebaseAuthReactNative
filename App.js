@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 import firebase from 'firebase';
 import { Header } from './src/component/common';
-import { LoginForm } from './src/component/LoginForm';
+import { LoginForm } from './src/component/LoginForm'
+
 
 
 
@@ -23,7 +24,7 @@ class App extends Component {
                 <Header headerText='Authentication' />
                 <LoginForm />
                 </View>
-        )
+        );
     }
 }
 
